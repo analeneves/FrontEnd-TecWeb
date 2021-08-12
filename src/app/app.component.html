@@ -1,0 +1,16 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span>
+      Medicamentos
+    </span>
+    <div>
+      <a mat-button [routerLink]= "'/med'">  Medicamentos </a>
+      <a mat-button [routerLink]= "'/compra'">  Comprar </a>
+    </div>
+  </mat-toolbar-row>
+  
+</mat-toolbar>
+
+<div class="container-fluid">
+  <router-outlet></router-outlet>
+</div>
