@@ -8,6 +8,7 @@ import {MatTableModule} from '@angular/material/table';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MedComponent, MngMedDialog } from './med/med.component';
 import { CompraComponent } from './compra/compra.component';
+import { AuthComponent } from './auth/auth.component';
 import{HttpClient, HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -21,7 +22,8 @@ import {MatInputModule} from '@angular/material/input';
     AppComponent,
     MedComponent,
     CompraComponent,
-    MngMedDialog
+    MngMedDialog,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,

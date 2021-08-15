@@ -26,7 +26,7 @@ export class MedComponent implements OnInit {
   constructor(private service: MedService, public dialog: MatDialog) { }
 
   ngOnInit() {
-    this.service.getMed().subscribe(med => this.dataSource.data = med);
+    this.service.getMeds().subscribe(med => this.dataSource.data = med);
   }
 
   openNewDialog(): void {
